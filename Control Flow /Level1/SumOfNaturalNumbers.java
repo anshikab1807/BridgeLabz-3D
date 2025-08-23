@@ -17,12 +17,11 @@ import java.util.Scanner;
 		            System.out.println("Sum using formula: " + formulaSum);
 		            System.out.println("Sum using for loop: " + loopSum);
 		            if (formulaSum == loopSum) {
-		                System.out.println("Both computations are correct and match!");
+		                System.out.println("Both computations are correct ");
 		            } else {
-		                System.out.println("There is a mismatch in the results.");
+		                System.out.println("There is a mismatch ");
 		            }
-		        }
-
-		        scanner.close();
+				}
 		    }
 		}
+
