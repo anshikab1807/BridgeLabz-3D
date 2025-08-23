@@ -5,11 +5,8 @@ import java.util.Scanner;
 		    public static void main(String[] args) {
 		        Scanner scanner = new Scanner(System.in);
 
-		        // Input
 		        System.out.print("Enter the person's age: ");
 		        int age = scanner.nextInt();
-
-		        // Check voting eligibility
 		        if (age >= 18) {
 		            System.out.println("The person's age is " + age + " and can vote.");
 		        } else {
@@ -20,3 +17,4 @@ import java.util.Scanner;
 		    }
 
 }
+
